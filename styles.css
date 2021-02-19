@@ -4,10 +4,9 @@
 	box-sizing: border-box;
 	margin: 0; 
 	padding: 0;
-	background-color: rgb(218, 0, 0);
 }
 
-li, a, button {
+li, a, button, p {
 	font-family: "Roboto", sans-serif;
 	font-weight: 500;
 	font-size: 16px;
@@ -20,6 +19,7 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	padding: 30px 10px;
+	background-color: rgb(218, 0, 0);;
 }
 
 .logo {
@@ -46,7 +46,6 @@ header {
 button {
 	padding: 9px 25px;
 	border: 2px solid white;
-	border-color: white;
 	border-radius: 50px;
 	cursor: pointer;
 	transition: all 0.3s ease 0s;
@@ -62,3 +61,21 @@ button:hover {
 	width: 100%;
 	background-color: sandybrown;
 }
+
+.container {
+	background-color: rgb(247, 247, 247);;
+	height: 150px;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 20% 10% 10% 20% 10% 10% 20%;
+	grid-template-rows: 100%;
+	justify-items: center;
+	align-items: center;
+	grid-gap: 1px;
+}
+
+p {
+	color: red; 
+}
+
+
